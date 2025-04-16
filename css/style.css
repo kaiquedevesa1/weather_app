@@ -62,4 +62,47 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 0.6rem;
+  gap: 10px;
+}
+
+#weather-data h2 i {
+  font-size: 1rem;
+}
+
+#weather-data span {
+  margin: 0, 6rem;
+}
+
+#country {
+  height: 15px;
+}
+
+#description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+}
+
+#description {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details-container #humidity {
+  border-right: 1px solid #fff;
+  margin: 0.6rem;
+  padding: 0.6rem;
+}
+
+.error {
+  font-weight: bold;
+  font-size: 15px;
+  color: #fdfdfd;
 }
